@@ -1083,8 +1083,7 @@
 _G.PRED = 0.015
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ezucii/VainsLegit/main/VainSilent.lua"))()
 Aiming.TeamCheck(false)
-Aiming.ShowFOV = false
-Aiming.FOV = 25
+
 -- // Services
 local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
